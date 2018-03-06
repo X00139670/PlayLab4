@@ -1,0 +1,12 @@
+2018-03-06 09:47:04,853 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-10 - Creating Pool for datasource 'default'
+2018-03-06 09:47:05,113 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-10 - Database [default] connected at jdbc:h2:file:./data/productsDB
+2018-03-06 09:47:06,113 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-10 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-03-06 09:47:06,278 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-10 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-03-06 09:47:06,283 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-10 - Application started (Dev)
+2018-03-06 09:47:43,824 [WARN] from application in application-akka.actor.default-dispatcher-5 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2018-03-06 09:47:54,810 [WARN] from application in application-akka.actor.default-dispatcher-4 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
